@@ -32,10 +32,6 @@ and repository contributions.
 |   |-- production_ablation.py
 |   |-- discrete_gwg_mnist/         # Discrete MNIST/GWG SRMC experiments
 |   `-- cifar10_ebm_mode_coverage/  # CIFAR-10 EBM mode-coverage notebooks
-|-- results/
-|   `-- figure2_continuous_alpha_sweep/
-`-- docs/
-    `-- release_scope.md
 ```
 
 ## Setup
