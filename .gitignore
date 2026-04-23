@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+experiments/figure2_continuous_alpha_screening_*/
+experiments/rerun_*/
+experiments/discrete_gwg_mnist/output_*/
+experiments/discrete_gwg_mnist/model_gwg_mnist/
+experiments/discrete_gwg_mnist/data/
+experiments/cifar10_ebm_mode_coverage/data/
+experiments/cifar10_ebm_mode_coverage/mode_coverage_results/
+experiments/cifar10_ebm_mode_coverage/sandbox_cachedir/
+*.log

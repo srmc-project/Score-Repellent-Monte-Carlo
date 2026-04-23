@@ -1,0 +1,14 @@
+[project]
+name = "score-repellent-monte-carlo"
+version = "0.1.0"
+description = "Reference implementation and continuous-target experiments for Score-Repellent Monte Carlo."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+]
+
+[tool.setuptools]
+py-modules = ["main", "potentials", "samplers", "utils"]

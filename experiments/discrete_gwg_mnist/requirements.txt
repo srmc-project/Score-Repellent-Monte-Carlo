@@ -1,0 +1,14 @@
+# Core dependencies for the discrete GWG/MNIST SRMC experiments.
+# Install these from this directory when reproducing the MNIST experiments.
+torch
+torchvision
+numpy
+scipy
+matplotlib
+tqdm
+Pillow
+
+# Optional dependencies for the non-MNIST GWG utilities retained from the
+# original codebase, such as Ising/Potts/protein scripts.
+tensorflow-probability
+evcouplings

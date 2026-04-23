@@ -1,0 +1,30 @@
+# Core dependencies for SRMC experiments
+# NOTE: The CIFAR-10 EBM experiments (exp2, exp3) require TensorFlow 1.12 and
+# the old OpenAI `baselines` package due to the pretrained EBM checkpoints.
+# The GMM experiment (exp1) only needs PyTorch.
+
+# TensorFlow 1.x (for CIFAR-10 EBM; exp2 & exp3)
+tensorflow==1.12.0
+tensorflow-gpu==1.12.0
+
+# PyTorch (for all experiments; classifier + GMM)
+torch
+torchvision
+
+# Numerical / scientific
+numpy==1.15.1
+scipy==0.19.1
+scikit-image==0.13.0
+Pillow==5.4.1
+
+# Visualization
+matplotlib
+seaborn
+
+# Utilities
+tqdm==4.20.0
+six==1.11.0
+absl-py
+
+# OpenAI baselines (required by EBM's TF-graph utilities)
+baselines==0.1.5
