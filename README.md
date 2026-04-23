@@ -1,16 +1,15 @@
 # Score-Repellent Monte Carlo
 
-This repository contains the SRMC code, including continuous-state experiments, discrete MNIST/GWG experiments, and CIFAR-10 EBM  mode-coverage notebooks.
+This repository contains the code for Score-Repellent Monte Carlo: Toward Efficient Non-Markovian Sampler with Constant Memory in General State Spaces, including continuous-state experiments, discrete MNIST/GWG experiments, and CIFAR-10 EBM  mode-coverage notebooks.
 
 ## Contribution Note
 
 This repository consolidates the simulation code used in the SRMC paper.
 
+- Initial implementations of the continuous-state modules were provided by Jie Hu.
 - Initial code for the discrete MNIST/GWG experiments was provided by Jinyoung Choi.
 - Initial code for the CIFAR-10 EBM mode-coverage experiments was provided by Geeho Kim.
-- Initial implementations of the continuous-state `main.py`, `samplers.py`, and
-  `potentials.py` modules were provided by Jie Hu.
-- Continued development of the initial continuous-state code, repository
+- Continued development of the initial continuous-state experiments, repository
   integration, cleanup, documentation, and public release setup are maintained
   by Lingyun Chen.
 - The repository is released under the supervision of Do Young Eun and the SRMC coauthors.
